@@ -1,0 +1,76 @@
+.splash-container {
+	background: #040 url("../img/water.jpg") no-repeat center top;
+	background-size: 100% 100%;
+	height: 100%;
+}
+
+.splash-head {
+	/*border: 0;*/
+	border-color: #020;
+}
+
+.content-wrapper {
+	top: 100%;
+}
+
+.err {
+	padding: 1em 1em 1em 3em;
+	border-radius: 1em;
+	background-color: #f88;
+	color: #222;
+}
+
+.inf {
+	padding: 1em 1em 1em 3em;
+	border-radius: 1em;
+	background-color: #8f8;
+	color: #222;
+}
+
+.res {
+	padding: 1em 1em 1em 1.5em;
+	border-radius: 1em;
+	background-color: #ff0;
+	color: #222;
+}
+.video{
+	position: relative;
+	width: 100%;
+	height: 75vh;
+  }
+  section video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  section .slider-text{
+	color: #ffffff;
+	position: absolute;
+	top: 50%;
+	bottom: auto;
+	left: 50%;
+	z-index: 100;
+	font-size: 45px;
+	background: rgba(0,0,0, .7);
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+  }
+  section .slider-text p{
+	margin-left: 20px;
+	}
+  @media (max-width: 768px){
+  section .slider-text{
+	margin-left: auto;
+	margin-right: auto;
+	width: 10em;
+	left: 0;
+	right: 0;
+	text-align: center;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+  }
+  }
